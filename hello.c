@@ -1,3 +1,4 @@
+// Add two integers and retrieve the result
 #include <stdio.h>
 #include <stdlib.h>
 
