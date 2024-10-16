@@ -8,7 +8,7 @@ void loopPrint(int times) {
         --times;
     } 
 }
-
+// Add two integers and retrieve the result
 int sum(int a, int b) {
     return a+b;
 }
