@@ -9,7 +9,7 @@ void loopPrint(int times) {
     } 
 }
 int main(void){
-    printf("good day\n");
+    printf("have a good day\n");
     loopPrint(5);
     return 0;
 }
