@@ -32,5 +32,6 @@ int main(void){
     printf("a = %d, b = %d, subtract = %d\n", a, b, sub_result);
     loopPrint(10);
     loopPrint(20);
+    loopPrint(30);
     return 0;
 }
