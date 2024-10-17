@@ -10,6 +10,7 @@ void loopPrint(int times) {
 }
 int main(void){
     printf("have a good day, nice\n");
+    printf("have see you\n");
     loopPrint(5);
     return 0;
 }
