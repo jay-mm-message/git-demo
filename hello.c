@@ -13,6 +13,10 @@ void loopPrint(int times) {
 int sum(int a, int b) {
     return a+b;
 }
+// Subtract two numbers and return the result
+int sub(int a, int b) {
+    return a-b;
+}
 
 int main(void){
     printf("have a good day, nice\n");
@@ -22,5 +26,9 @@ int main(void){
     int b = 200;
     int sum_result = sum(a, b);
     printf("a = %d, b = %d , sum = %d\n", a, b, sum_result);
+    a = 200;
+    b = 100;
+    int sub_result = sub(a, b);
+    printf("a = %d, b = %d, subtract = %d\n", a, b, sub_result);
     return 0;
 }
