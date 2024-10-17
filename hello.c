@@ -30,5 +30,6 @@ int main(void){
     b = 100;
     int sub_result = sub(a, b);
     printf("a = %d, b = %d, subtract = %d\n", a, b, sub_result);
+    loopPrint(10);
     return 0;
 }
