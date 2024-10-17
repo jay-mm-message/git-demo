@@ -16,6 +16,7 @@ int sum(int a, int b) {
 
 int main(void){
     printf("have a good day, nice\n");
+    printf("nice to meet you\n");
     loopPrint(5);
     int a = 100;
     int b = 200;
