@@ -34,5 +34,6 @@ int main(void){
     loopPrint(20);
     loopPrint(30);
     loopPrint(50);
+    loopPrint(60);
     return 0;
 }
