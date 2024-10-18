@@ -35,5 +35,6 @@ int main(void){
     loopPrint(30);
     loopPrint(50);
     loopPrint(60);
+    loopPrint(70); // test fetch
     return 0;
 }
