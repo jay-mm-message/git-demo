@@ -46,6 +46,7 @@ int main(void){
     b = 5;
     double exp_result = exponential(a, b);
     printf("a = %d, b = %d, exponential = %.2f\n", a, b, exp_result);
-    
+    loopPrint(5);
+
     return 0;
 }
