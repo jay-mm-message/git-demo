@@ -1,6 +1,7 @@
 // main app
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 // Print count
 void loopPrint(int times) {
@@ -18,6 +19,11 @@ int sub(int a, int b) {
     return a-b;
 }
 
+// Add exponential feature
+double exponential(double n, double e) {
+    return pow(n, e);
+}
+
 int main(void){
     printf("have a good day, nice\n");
     printf("nice to meet you\n");
@@ -31,10 +37,15 @@ int main(void){
     int sub_result = sub(a, b);
     printf("a = %d, b = %d, subtract = %d\n", a, b, sub_result);
     loopPrint(10);
-    loopPrint(20);
-    loopPrint(30);
-    loopPrint(50);
-    loopPrint(60);
-    loopPrint(70); // test fetch
+    //loopPrint(20);
+    //loopPrint(30);
+    //loopPrint(50);
+    //loopPrint(60);
+    //loopPrint(70); // test fetch
+    a = 2;
+    b = 5;
+    double exp_result = exponential(a, b);
+    printf("a = %d, b = %d, exponential = %.2f\n", a, b, exp_result);
+    
     return 0;
 }
