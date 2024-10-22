@@ -31,7 +31,7 @@ void swap(int *a, int *b) {
 
 // test
 void printTest(void) {
-    prinntf("test");
+    printf("test\n");
 }
 
 int main(void){
@@ -66,5 +66,6 @@ int main(void){
     swap(&a, &b);
     printf("after swap a = %d, b = %d\n", a, b);
     printTest();
+
     return 0;
 }
