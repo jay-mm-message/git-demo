@@ -1,6 +1,7 @@
 // main app
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 // Print count
 void loopPrint(int times) {
@@ -16,6 +17,11 @@ int sum(int a, int b) {
 // Subtract two numbers and return the result
 int sub(int a, int b) {
     return a-b;
+}
+
+// Add exponential feature
+double exponential(double n, double e) {
+    return pow(n, e);
 }
 
 int main(void){
@@ -39,5 +45,9 @@ int main(void){
     //test rename default branch is ready
     loopPrint(5);
     //okay
+    a = 2;
+    b = 5;
+    double exp_result = exponential(a, b);
+    printf("a = %d, b = %d, exponential = %.2f\n", a, b, exp_result);
     return 0;
 }
