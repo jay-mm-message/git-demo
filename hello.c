@@ -32,6 +32,7 @@ void swap(int *a, int *b) {
 // test
 void printTest(void) {
     printf("test\n");
+    printf("remote\n");
 }
 
 int main(void){
