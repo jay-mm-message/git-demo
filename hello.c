@@ -28,7 +28,7 @@ int main(void){
     printf("have a good day, nice\n");
     printf("nice to meet you\n");
     loopPrint(5);
-    int a = 300;
+    int a = 500;
     int b = 200;
     int sum_result = sum(a, b);
     printf("a = %d, b = %d, sum = %d\n", a, b, sum_result);
