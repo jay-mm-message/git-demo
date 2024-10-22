@@ -30,13 +30,14 @@ int main(void){
     b = 100;
     int sub_result = sub(a, b);
     printf("a = %d, b = %d, subtract = %d\n", a, b, sub_result);
-    loopPrint(10);
-    loopPrint(20);
-    loopPrint(30);
-    loopPrint(50);
-    loopPrint(60);
-    loopPrint(70); // test fetch
+    //loopPrint(10);
+    //loopPrint(20);
+    //loopPrint(30);
+    //loopPrint(50);
+    //loopPrint(60);
+    //loopPrint(70); // test fetch
     //test rename default branch is ready
+    loopPrint(5);
     //okay
     return 0;
 }
