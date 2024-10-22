@@ -18,10 +18,15 @@ int sum(int a, int b) {
 int sub(int a, int b) {
     return a-b;
 }
-
 // Add exponential feature
 double exponential(double n, double e) {
     return pow(n, e);
+}
+// swap
+void swap(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp;
 }
 
 int main(void){
@@ -49,5 +54,11 @@ int main(void){
     b = 5;
     double exp_result = exponential(a, b);
     printf("a = %d, b = %d, exponential = %.2f\n", a, b, exp_result);
+
+    a = 100;
+    b = 200;
+    printf("before swap a = %d, b = %d\n", a, b);
+    swap(a, b);
+    printf("after swap a = %d, b = %d\n", a, b);
     return 0;
 }
