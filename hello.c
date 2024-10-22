@@ -23,10 +23,10 @@ double exponential(double n, double e) {
     return pow(n, e);
 }
 // swap
-void swap(int &a, int &b) {
-    int temp = a;
-    a = b;
-    b = temp;
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
 }
 
 int main(void){
@@ -58,7 +58,7 @@ int main(void){
     a = 100;
     b = 200;
     printf("before swap a = %d, b = %d\n", a, b);
-    swap(a, b);
+    swap(&a, &b);
     printf("after swap a = %d, b = %d\n", a, b);
     return 0;
 }
