@@ -29,6 +29,11 @@ void swap(int &a, int &b) {
     b = temp;
 }
 
+// test
+void printTest(void) {
+    prinntf("test");
+}
+
 int main(void){
     printf("have a good day, nice\n");
     printf("nice to meet you\n");
@@ -60,5 +65,6 @@ int main(void){
     printf("before swap a = %d, b = %d\n", a, b);
     swap(a, b);
     printf("after swap a = %d, b = %d\n", a, b);
+    printTest();
     return 0;
 }
