@@ -28,6 +28,11 @@ void swap(int *a, int *b) {
     *a = *b;
     *b = temp;
 }
+// Division two integers and retrieve the result
+int divi(int dividend, int divisor) {
+    int res = (int) (dividend / divisor);
+    return res;
+}
 
 // test
 void printTest(void) {
@@ -68,6 +73,10 @@ int main(void){
     swap(&a, &b);
     printf("after swap a = %d, b = %d\n", a, b);
     printTest();
+
+    a = 200;
+    b = 5;
+    printf("dividend = %d, divisor = %d, result = %d\n", a, b, divi(a, b));
 
     return 0;
 }
