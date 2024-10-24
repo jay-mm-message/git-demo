@@ -77,6 +77,7 @@ int main(void){
     a = 200;
     b = 5;
     printf("dividend = %d, divisor = %d, result = %d\n", a, b, divi(a, b));
-
+    printf("test master");
+    
     return 0;
 }
